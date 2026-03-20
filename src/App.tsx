@@ -11,8 +11,8 @@ const THEME = {
 };
 
 export default function App() {
-  const canvasRef = useRef(null);
-  const cursorRef = useRef(null);
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const cursorRef = useRef<HTMLDivElement>(null);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   // 1. 物理粒子背景 (带有鼠标避让效果)
