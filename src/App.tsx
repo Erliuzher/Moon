@@ -230,7 +230,6 @@ export default function App() {
               color: "#ccc",
               lineHeight: 1.8,
               fontSize: "15px",
-              spaceY: "10px",
             }}
           >
             <p style={{ margin: "5px 0" }}>毕业于 广西师范大学 音乐教育专业</p>
