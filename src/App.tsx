@@ -37,7 +37,7 @@ export default function App() {
       }));
     };
 
-    const draw = (time) => {
+    const draw = (time: number) => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       const t = time * 0.0004;
       pts.forEach((p) => {
