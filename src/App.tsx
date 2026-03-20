@@ -24,6 +24,7 @@ export default function App() {
     let mouse = { x: -1000, y: -1000 };
 
     const init = () => {
+      if (!canvas) return;
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
       pts = Array.from({ length: 1800 }, () => ({
