@@ -20,7 +20,7 @@ export default function App() {
     const canvas = canvasRef.current;
     const ctx = canvas?.getContext("2d");
     if (!ctx) return;
-    let pts = [];
+    let pts: any[] = [];
     let mouse = { x: -1000, y: -1000 };
 
     const init = () => {
